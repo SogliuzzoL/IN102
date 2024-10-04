@@ -18,9 +18,6 @@ int compter_iterations(double x, double y, int max_iter)
             return i;
         }
 
-        double temp_a = a;
-        double temp_b = b;
-
         a = a * a - b * b + x;
         b = 2 * c + y;
         c = a * b;
